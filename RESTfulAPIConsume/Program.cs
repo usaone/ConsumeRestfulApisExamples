@@ -16,7 +16,7 @@ namespace RESTfulAPIConsume
             //These are the five ways to consume RESTful APIs described in the blog post
             IRequestHandler httpWebRequestHandler = new HttpWebRequestHandler();
             IRequestHandler webClientRequestHandler = new WebClientRequestHandler();
-            IRequestHandler httpClientRequestHandler = new HttpClientRequestHandler();
+            IRequestHandler httpClientRequestHandler = new HttpClientRequestHandler(); //Offers some of the modern .NET functionalities
             IRequestHandler restSharpRequestHandler = new RestSharpRequestHandler();
             IRequestHandler serviceStackRequestHandler = new ServiceStackRequestHandler();
 
